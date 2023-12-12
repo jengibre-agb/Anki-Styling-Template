@@ -1,0 +1,81 @@
+To access the styling part of the cards:
+
+-Click on any deck's name, no need to start it
+-Click on the "Browse" button, above the deck's name
+-Click on the "Cards" button, should be ~top right of the screen
+
+You should see something like this
+
+https://imgur.com/a/t7Lc68O
+
+
+<!-- =========================================================
+
+These two blocks go at the front and back pages,
+replace fields like {{translation}}, {{srcText}}, or {{context}}
+with whatever your current deck says
+it might be something like {{front}} or {{main}}
+
+When you open your deck it will by default show the
+object's name you're using, you can also find it by
+editing a card. 
+
+
+https://imgur.com/a/7Hoqm6h
+In this screenshot's case, the three fields we'd be using are:
+
+
+{{Front}} which contains the word Bewältigen,
+{{Back}} which containts the approximate ~translation,
+
+And
+
+{{Note}} which contains an example 
+
+
+
+<!--- Watch how in this document, the object {{Note}} is rather called {{context}}
+	while the {{Back}} is called {{srcText}} -->
+	
+You might run into different decks that rename those fields differently
+that's why I chose these examples, so you are aware of it,
+if you rename it, it won't work, you must respect the field's name given by the deck
+
+
+You might as well replace the {{ }} objects in the reversed cards, in case
+your deck has a reversed setting too (front being hidden and back as the visible clue)
+
+Don't forget to apply the styling, it is a different document in this repo,
+	but you should edit it on that same window.
+
+============================================================= -->
+
+
+====	Front    ===========================================
+
+<p class="front-text">{{translation}}</p>
+
+<div class="bottom-line"></div>
+
+
+====    Back     ============================================
+
+
+<p class="front-text">{{translation}}</p>
+
+<div class="bottom-line"></div>
+
+<div class="my-rectangle"
+
+<hr id=answer>
+
+<p class="back-text">{{srcText}} </p>
+
+</div>
+
+<div class="blue_line_context" 
+	<p class= "context" <em> {{context}} </em> </p>
+</div>
+
+
+==================================================================

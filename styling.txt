@@ -1,0 +1,111 @@
+<!-- ===========================================================
+
+Please consult first the back-front.txt file
+it provides the instructions, as well as the other two field's settings
+
+============================================================== -->
+
+Every object here can be modified in any way you want
+just be careful if you rename them, you'll have to do it
+on the other fields too, you could also break the way it displays
+if you dramatically change the dimensions.
+
+You can either learn css in two hours or ask chat gpt to modify any object
+in case you don't like the shape, size or color of something here.
+
+The {{ objects }} should always be wrapped by other div or parapgraph
+like in this example:
+
+
+<p class="front-text">{{translation}}</p>
+<p class="back-text">{{srcText}} </p>
+
+
+{{translation}} is wrapped by the "front-text" paragraph
+just like {{srcText}} is wrapped by a "back-text" paragraph.
+
+There's no way to apply the styling directly onto the {{ }} objects
+
+Copy all of this text into the Styiling field.
+
+==============================================================================
+
+.my-rectangle {
+	 margin-right:200px;
+	 margin-left:200px;
+	 display: flex;
+   background-color: rgba(134, 36, 248, 0.7);
+	 align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+   text-align: center; 
+   justify-content: center;
+   align-items: center;
+   font-size: 20px; 
+	 background: linear-gradient(45deg, rgba(134, 36, 248, 0.7) 40%, rgba(255, 194, 122, 0.7), rgba(255, 170, 145, 0.7));
+}
+
+
+.front-text {
+   color: #8624F8;
+   font-weight: bold;
+   font-size: 40px; 
+	 text-align: center;
+   text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
+	 background-color: 
+	 border: 2px solid #3498db; 
+   <! box-shadow: px 4px 10px rgba(0, 0, 0, 0.2);
+	 
+}
+
+.back-text {
+   color: white;
+   font-weight: bold;
+   font-size: 40px; /* Adjust the text size as needed */
+	 text-shadow: 10px 8px 5px rgba(0, 0, 0, 0.2);
+	 text-align: center;
+}
+
+.context {
+	font-size: 25px;
+	text-align: center;
+	font-style:italic;
+}
+
+.blue_line_context {
+	 margin-top: 100px;
+	 margin-left: 200px;
+   border-left: 5px solid blue; 
+   padding-left: 10px; 
+   margin-top: 20px;
+	 
+	 font-weight: bold;
+	 font-size: 20px;
+}
+
+.context {
+   margin-left: 10px; 
+   padding-left: 15px;
+   display: block;
+}
+
+
+.red_line_context {
+   border-left: 5px solid red; /* Adjust the color and width as needed */
+   padding-left: 10px; /* Adjust the padding to create space between the text and the line */
+   margin-top: 20px;
+}
+
+
+
+.Audio {
+   text-align: center;
+}
+
+.bottom-line {
+   width: 100%; /* Adjust the width as needed */
+   height: 5px; /* Adjust the height of the line */
+   background-color: rgba(168, 129, 255, 0.5);
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
