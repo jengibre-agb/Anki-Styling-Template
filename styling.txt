@@ -109,3 +109,27 @@ Copy all of this text into the Styiling field.
    margin-top: 100px;
    margin-bottom: 50px;
 }
+
+@keyframes fallAndBounce {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  animation: fallAndBounce 1s ease-in-out;
+}

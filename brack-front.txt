@@ -53,10 +53,11 @@ Don't forget to apply the styling, it is a different document in this repo,
 
 ====	Front    ===========================================
 
+<div class="fadeIn">
 <p class="front-text">{{translation}}</p>
+</div>
 
 <div class="bottom-line"></div>
-
 
 ====    Back     ============================================
 
@@ -65,17 +66,16 @@ Don't forget to apply the styling, it is a different document in this repo,
 
 <div class="bottom-line"></div>
 
+<div class="fadeIn">
+
 <div class="my-rectangle"
-
 <hr id=answer>
-
 <p class="back-text">{{srcText}} </p>
-
 </div>
 
 <div class="blue_line_context" 
 	<p class= "context" <em> {{context}} </em> </p>
 </div>
-
+</div>
 
 ==================================================================
