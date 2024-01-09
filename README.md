@@ -1,5 +1,5 @@
-Hi, this is just my anki styling template, so it doesnt look as boring
+Just my anki template so it doesn't look as boring
+
+Some simple instructions are left in case anyone needs them
 
 
-I dont think anyone that doesn't know how to do it would know what github is
-  but anyway, i left some instructions in case someone needs them
