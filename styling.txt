@@ -30,14 +30,46 @@ Copy all of this text into the Styiling field.
 
 ==============================================================================
 
-.my-rectangle {
-	 margin-right:200px;
-	 margin-left:200px;
+.big-rectangle {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+	justify-content: center;
+  background-color: rgba(255, 223, 186, 0.7); 
+	margin-top: 50px;
+  border-radius: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-size: 20px;
+	border-radius:60px;
+}
+
+.smol-rectangle {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+	justify-content: center;
+  background-color: rgba(255, 204, 229, 0.7); 
+	margin-top: 100px;
+  border-radius: 60px;
+  margin-right: 50px;
+  margin-left: 50px;
+	margin-bottom: 100px;
+  font-size: 20px;
+	min-width: 500px;
+}
+
+.purple-rectangle {
+	 margin-right:50px;
+	 margin-left:50px;
+	 margin-top: 50px;
 	 display: flex;
    background-color: rgba(134, 36, 248, 0.7);
 	 align-items: center;
    justify-content: center;
-   border-radius: 20px;
+   border-radius: 60px;
    text-align: center; 
    justify-content: center;
    align-items: center;
@@ -55,6 +87,8 @@ Copy all of this text into the Styiling field.
 	 background-color: 
 	 border: 2px solid #3498db; 
    <! box-shadow: px 4px 10px rgba(0, 0, 0, 0.2);
+	 justify-content: center;
+   align-items: center;
 	 
 }
 
@@ -64,17 +98,19 @@ Copy all of this text into the Styiling field.
    font-size: 40px; /* Adjust the text size as needed */
 	 text-shadow: 10px 8px 5px rgba(0, 0, 0, 0.2);
 	 text-align: center;
+	 justify-content: center;
+   align-items: center;
 }
 
 .context {
 	font-size: 25px;
-	text-align: center;
+	text-align: left;
 	font-style:italic;
 }
 
 .blue_line_context {
 	 margin-top: 100px;
-	 margin-left: 200px;
+	 margin-left: 50px;
    border-left: 5px solid blue; 
    padding-left: 10px; 
    margin-top: 20px;
@@ -106,7 +142,7 @@ Copy all of this text into the Styiling field.
    width: 100%; /* Adjust the width as needed */
    height: 5px; /* Adjust the height of the line */
    background-color: rgba(168, 129, 255, 0.5);
-   margin-top: 100px;
+   margin-top: 50px;
    margin-bottom: 50px;
 }
 
