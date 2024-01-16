@@ -31,50 +31,44 @@ Copy all of this text into the Styiling field.
 ==============================================================================
 
 .big-rectangle {
-	display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-	justify-content: center;
-  background-color: rgba(255, 223, 186, 0.7); 
-	margin-top: 50px;
-  border-radius: 20px;
-  margin-right: 200px;
-  margin-left: 200px;
+  background-color: rgba(255, 223, 186, 0.7);
+  padding: 30px 70px; 
+  border-radius: 80px;
   font-size: 20px;
-	border-radius:60px;
+  min-width: 200px;
+  height: auto; 
+  position: relative;
 }
 
 .smol-rectangle {
-	display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-	justify-content: center;
-  background-color: rgba(255, 204, 229, 0.7); 
-	margin-top: 100px;
-  border-radius: 60px;
-  margin-right: 50px;
-  margin-left: 50px;
-	margin-bottom: 100px;
-  font-size: 20px;
-	min-width: 500px;
+  background-color: rgba(255, 204, 229, 0.7);
+  width: fit-content;
+  margin: 50px auto;
+  padding: 0 100px; /* Adjust padding to extend 100px to the right and left */
+  border-radius: 60px 0px 60px 0px;
 }
 
+
 .purple-rectangle {
-	 margin-right:50px;
-	 margin-left:50px;
-	 margin-top: 50px;
-	 display: flex;
-   background-color: rgba(134, 36, 248, 0.7);
-	 align-items: center;
-   justify-content: center;
-   border-radius: 60px;
-   text-align: center; 
-   justify-content: center;
-   align-items: center;
-   font-size: 20px; 
-	 background: linear-gradient(45deg, rgba(134, 36, 248, 0.7) 40%, rgba(255, 194, 122, 0.7), rgba(255, 170, 145, 0.7));
+  margin: 50px auto;
+  display: flex;
+  background-color: rgba(134, 36, 248, 0.7);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  width: fit-content;
+  padding: 0 100px; /* Adjust padding to extend 100px to the right and left */
+  border-radius: 0px 60px 0px 60px;
+  background: linear-gradient(45deg, rgba(134, 36, 248, 0.7) 40%, rgba(255, 194, 122, 0.7), rgba(255, 170, 145, 0.7));
 }
 
 
@@ -83,23 +77,25 @@ Copy all of this text into the Styiling field.
    font-weight: bold;
    font-size: 40px; 
 	 text-align: center;
-   text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.2);
+   text-shadow: 10px 4px 4px rgba(0, 0, 0, 			 0.2);
 	 background-color: 
 	 border: 2px solid #3498db; 
-   <! box-shadow: px 4px 10px rgba(0, 0, 0, 0.2);
+   box-shadow: px 4px 10px rgba(0, 0, 0, 				 0.2);
 	 justify-content: center;
    align-items: center;
-	 
+	 font-family: monospace;
+	 z-index: 1;
 }
 
 .back-text {
    color: white;
    font-weight: bold;
-   font-size: 40px; /* Adjust the text size as needed */
+   font-size: 40px; 
 	 text-shadow: 10px 8px 5px rgba(0, 0, 0, 0.2);
 	 text-align: center;
 	 justify-content: center;
    align-items: center;
+	 font-family: monospace;
 }
 
 .context {
@@ -109,14 +105,12 @@ Copy all of this text into the Styiling field.
 }
 
 .blue_line_context {
-	 margin-top: 100px;
-	 margin-left: 50px;
-   border-left: 5px solid blue; 
-   padding-left: 10px; 
-   margin-top: 20px;
-	 
-	 font-weight: bold;
-	 font-size: 20px;
+  margin-top: 20px; /* Remove the redundant margin-top */
+  margin-left: 50px;
+  border-left: 5px solid blue;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .context {
@@ -139,11 +133,25 @@ Copy all of this text into the Styiling field.
 }
 
 .bottom-line {
-   width: 100%; /* Adjust the width as needed */
-   height: 5px; /* Adjust the height of the line */
-   background-color: rgba(168, 129, 255, 0.5);
-   margin-top: 50px;
-   margin-bottom: 50px;
+  width: calc(100% - 100px); /* Adjust width to account for left and right margins */
+  height: 5px;
+  background-color: rgba(168, 129, 255, 0.5);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px; /* Adjust left margin */
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.element {
+  animation: scaleIn 1.5s ease-in-out;
 }
 
 @keyframes fallAndBounce {
@@ -168,4 +176,24 @@ Copy all of this text into the Styiling field.
 
 .fadeIn {
   animation: fallAndBounce 1s ease-in-out;
+}
+
+@keyframes terminalText {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+.terminal {
+   overflow: hidden;
+   white-space: nowrap;
+   animation: terminalText 2s steps(30) forwards; 
+	 blinkCursor 0.5s infinite step-end;
+	 font-size: 25px;
+	 text-align: left;
+	 font-style:italic;
+   display: block;
 }
