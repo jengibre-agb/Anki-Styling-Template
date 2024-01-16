@@ -56,10 +56,11 @@ Don't forget to apply the styling, it is a different document in this repo,
 <div class="fadeIn">
  <div class="big-rectangle">
   <div class="smol-rectangle">
-      <p class="front-text">{{translation}}</p>
+    <p class="front-text">{{translation}}</p>
     </div>
   </div>
 </div>
+
 
 ====    Back     ============================================
 
@@ -70,21 +71,15 @@ Don't forget to apply the styling, it is a different document in this repo,
       <div class="smol-rectangle">
         <p class="front-text">{{translation}}</p>
       </div>
-
       <div class="bottom-line"></div>
-
-      <div class="fadeIn">
-        <div class="purple-rectangle">
-         	<p class="back-text">{{srcText}} </p>
-        </div>
-
-        <div class="blue_line_context">
-          <p class="context"><em>{{context}}</em></p>
-        </div>
+      <div class="purple-rectangle">
+        <p class="back-text">{{srcText}}</p>
+      </div>
+      <div class="blue_line_context">
+        <div class="terminal"><em>{{context}}</em></div>
       </div>
     </div>
   </div>
 </div>
-
 
 ==================================================================
