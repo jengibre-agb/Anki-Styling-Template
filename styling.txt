@@ -52,7 +52,7 @@ Copy all of this text into the Styiling field.
   background-color: rgba(255, 204, 229, 0.7);
   width: fit-content;
   margin: 50px auto;
-  padding: 0 100px; /* Adjust padding to extend 100px to the right and left */
+  padding: 0 100px; 
   border-radius: 60px 0px 60px 0px;
 }
 
@@ -66,7 +66,7 @@ Copy all of this text into the Styiling field.
   text-align: center;
   font-size: 20px;
   width: fit-content;
-  padding: 0 100px; /* Adjust padding to extend 100px to the right and left */
+  padding: 0 100px; 
   border-radius: 0px 60px 0px 60px;
   background: linear-gradient(45deg, rgba(134, 36, 248, 0.7) 40%, rgba(255, 194, 122, 0.7), rgba(255, 170, 145, 0.7));
 }
@@ -105,7 +105,7 @@ Copy all of this text into the Styiling field.
 }
 
 .blue_line_context {
-  margin-top: 20px; /* Remove the redundant margin-top */
+  margin-top: 20px; 
   margin-left: 50px;
   border-left: 5px solid blue;
   padding-left: 10px;
@@ -121,8 +121,8 @@ Copy all of this text into the Styiling field.
 
 
 .red_line_context {
-   border-left: 5px solid red; /* Adjust the color and width as needed */
-   padding-left: 10px; /* Adjust the padding to create space between the text and the line */
+   border-left: 5px solid red; 
+   padding-left: 10px; 
    margin-top: 20px;
 }
 
@@ -133,7 +133,7 @@ Copy all of this text into the Styiling field.
 }
 
 .bottom-line {
-  width: calc(100% - 100px); /* Adjust width to account for left and right margins */
+  width: calc(100% - 100px); 
   height: 5px;
   background-color: rgba(168, 129, 255, 0.5);
   margin-top: 50px;
