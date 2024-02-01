@@ -5,8 +5,10 @@ Some simple instructions are left in case anyone needs them
 Added some effects, colors, overall tried to make it look less boring
 
 These effects (movement) DO NOT work on the windows app, i don't know if there's a workaround,
-  if you're using it you can simply go to the web version, they display correctly there;
-    Tested on linux and web, use preferably on and ipad or something w/ a big screen
+  if you're using it you can simply go to the web version, they display correctly there.
+
+  
+Tested on linux and web, use preferably on and ipad or something w/ a big screen
       as this was conceived to be used on a desktop.
 
 Don't know about macOs, I imagine it'd work, if you try them let me know
