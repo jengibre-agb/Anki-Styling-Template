@@ -15,7 +15,7 @@ Tested on linux and web, use preferably on and ipad or something w/ a big screen
 
 Don't know about macOs, I imagine it'd work, if you try them let me know
 
-I did not code the big "images" like the astronaut or the candles
+I did not create the big css "images" like the astronaut or the candles
   i took them from this page and modified them a little bit so it wouldn't break the card
 https://blog.hubspot.com/website/css-animation-examples
 
