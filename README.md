@@ -1,6 +1,7 @@
 Anki template so it doesn't look as shitty
 
-Some simple instructions are left in case anyone needs them
+Some simple instructions are left in case anyone needs them, they're based on a simpler, older template but you can follow them and achieve the same result
+
 
 Added some effects, colors, overall tried to make it look less boring
 
