@@ -38,9 +38,10 @@ And
 <!--- Watch how in this document, the object {{Note}} is rather called {{context}}
 	while the {{Back}} is called {{srcText}} -->
 	
-You might run into different decks that rename those fields differently
-that's why I chose these examples, so you are aware of it,
-if you rename it, it won't work, you must respect the field's name given by the deck
+You might run into different decks that name those fields differently,
+you can rename those fields (on the deck's Fields configuration)
+so they match the names we'll be using here, or, keep the original ones
+and rename the Styling objects, it is up to you.
 
 
 You might as well replace the {{ }} objects in the reversed cards, in case
