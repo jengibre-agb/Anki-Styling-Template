@@ -1,4 +1,4 @@
-Anki template so it doesn't look as shitty
+Anki template so it doesn't look as crappy
 
 Some simple instructions are left in case anyone needs them, they're based on a simpler, older template but you can follow them and achieve the same result
 >Start with the back-front.txt file right here
