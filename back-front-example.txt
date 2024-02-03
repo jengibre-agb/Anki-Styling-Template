@@ -8,7 +8,8 @@ You should see something like this
 
 https://imgur.com/a/t7Lc68O
 
-
+This is an example template, the up-to-date templates are inside the 
+Templates folder
 <!-- =========================================================
 
 These two blocks go at the front and back pages,
